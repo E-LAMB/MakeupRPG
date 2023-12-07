@@ -26,6 +26,6 @@ public class Cards : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        gameObject.transform.Rotate(new Vector3(40f * Time.deltaTime, 65f * Time.deltaTime, 15f * Time.deltaTime));
     }
 }
